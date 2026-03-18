@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@plugin "@tailwindcss/typography";
+
+@theme inline {
+  --font-sans: 'Lato', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-card-border: hsl(var(--card-border));
+
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+:root {
+  /* Dark Indian Restaurant Theme */
+  --background: 20 60% 5%; /* Very dark brown */
+  --foreground: 40 80% 85%; /* Cream/Golden text */
+  
+  --card: 20 50% 8%; /* Slightly lighter brown for cards */
+  --card-foreground: 40 80% 85%;
+  --card-border: 43 74% 47% / 0.2; /* Faint golden border */
+
+  --popover: 20 50% 8%;
+  --popover-foreground: 40 80% 85%;
+  --popover-border: 43 74% 47% / 0.2;
+
+  --primary: 0 100% 27%; /* Deep Maroon #8B0000 */
+  --primary-foreground: 40 80% 85%;
+
+  --secondary: 43 74% 47%; /* Golden #C9A227 */
+  --secondary-foreground: 20 60% 5%;
+
+  --muted: 20 30% 15%;
+  --muted-foreground: 40 50% 65%;
+
+  --accent: 43 74% 47% / 0.1;
+  --accent-foreground: 43 74% 47%;
+
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 100%;
+
+  --border: 43 74% 47% / 0.2;
+  --input: 43 74% 47% / 0.2;
+  --ring: 43 74% 47%;
+
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+    background-image: radial-gradient(circle at center, rgba(201, 162, 39, 0.03) 0%, transparent 100%);
+    background-attachment: fixed;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif tracking-wide;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .text-glow {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-secondary via-[#f2d06b] to-secondary;
+  }
+  
+  .glass-panel {
+    @apply bg-background/80 backdrop-blur-md border border-secondary/20 shadow-xl shadow-black/50;
+  }
+}

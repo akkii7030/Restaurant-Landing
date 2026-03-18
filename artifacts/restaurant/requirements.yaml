@@ -1,0 +1,17 @@
+packages:
+  "framer-motion": "For smooth scroll animations and micro-interactions"
+  "gsap": "For advanced hero section timeline animations as requested"
+  "clsx": "For conditional class names"
+  "tailwind-merge": "For merging tailwind classes"
+
+images:
+  - path: "artifacts/restaurant/public/images/pattern-mandala.png"
+    description: "A subtle, dark, seamless golden mandala pattern on a transparent background, suitable for overlaying on dark brown backgrounds to add premium Indian texture."
+    aspect_ratio: "1:1"
+  - path: "artifacts/restaurant/public/images/restaurant-logo.png"
+    description: "A premium, elegant logo for 'Shree Laxmi Vilas', featuring a golden lotus or traditional Indian motif, isolated on a transparent background."
+    aspect_ratio: "1:1"
+
+notes:
+  - Purely static landing page, no backend integration required.
+  - Using GSAP for the Hero section and Framer Motion for scroll reveals in other sections.

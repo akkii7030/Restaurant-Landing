@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd artifacts/restaurant && pnpm install && pnpm build",
+  "outputDirectory": "artifacts/restaurant/dist/public",
+  "installCommand": "npm install -g pnpm"
+}

@@ -1,0 +1,224 @@
+Create a modern premium restaurant landing page for:
+
+Shree Laxmi Vilas Family Restaurant
+श्री लक्ष्मी विलास फैमिली रेस्टोरेंट
+
+Location:
+Hera Niwas,
+Daftary Road,
+Malkani Estate,
+Pushpa Park,
+Malad East,
+Mumbai, Maharashtra 400097
+
+Phone:
++91 98192 69169
+
+Restaurant Type:
+Indian Family Restaurant
+
+Google Rating:
+4.7 ⭐ (1400+ reviews)
+
+Services:
+Dine-in
+Drive-through
+No-contact delivery
+Online ordering
+
+Opening Hours:
+Monday – Sunday
+10:00 AM – 1:00 AM
+
+------------------------------------------------
+
+TECH STACK
+
+React
+TypeScript
+TailwindCSS
+GSAP animations
+Framer Motion
+Responsive design
+
+------------------------------------------------
+
+DESIGN THEME
+
+Traditional Indian restaurant theme.
+
+Primary Color
+Deep Maroon #8B0000
+
+Secondary
+Golden #C9A227
+
+Accent
+Cream #FFF3E0
+
+Background
+Dark brown
+
+Design Feel
+
+Traditional
+Elegant
+Family restaurant vibe
+
+------------------------------------------------
+
+HERO SECTION
+
+Background:
+High quality Indian food image.
+
+Heading:
+
+Authentic Taste of India
+
+Subheading:
+
+Family Restaurant in Malad East
+
+Buttons:
+
+View Menu
+Reserve Table
+Call Now
+
+------------------------------------------------
+
+ABOUT SECTION
+
+Title
+
+About Shree Laxmi Vilas Family Restaurant
+
+Content
+
+Shree Laxmi Vilas Family Restaurant is a popular dining destination in Malad East known for its delicious Indian cuisine and welcoming family atmosphere.
+
+Guests can enjoy freshly prepared meals, traditional flavors and excellent service in a comfortable dining environment.
+
+------------------------------------------------
+
+MENU SECTION
+
+Create animated menu categories.
+
+Categories:
+
+Soups
+Starters
+Veg Main Course
+Non-Veg Main Course
+Tandoori
+Biryani
+Rice
+Indian Breads
+Chinese
+Desserts
+Beverages
+
+Each menu card should show:
+
+Dish image
+Dish name
+Short description
+
+------------------------------------------------
+
+GALLERY SECTION
+
+Show HD images of:
+
+Food dishes
+Restaurant interior
+Dining area
+Chef cooking
+
+Use hover zoom animation.
+
+------------------------------------------------
+
+REVIEWS SECTION
+
+Show rating:
+
+⭐ 4.7 Google Rating
+
+Display customer testimonials.
+
+------------------------------------------------
+
+SERVICES SECTION
+
+Highlight:
+
+Family dining
+Takeaway
+Delivery
+Group dining
+Late night dining
+
+------------------------------------------------
+
+CONTACT SECTION
+
+Address
+
+Hera Niwas,
+Daftary Road,
+Pushpa Park,
+Malad East,
+Mumbai
+
+Phone
+
++91 98192 69169
+
+Include:
+
+Google Maps embed
+Call button
+
+------------------------------------------------
+
+CTA SECTION
+
+Background gradient maroon.
+
+Text:
+
+Enjoy Delicious Indian Food With Your Family
+
+Buttons:
+
+Reserve Table
+Order Now
+
+------------------------------------------------
+
+FOOTER
+
+Restaurant logo
+Quick links
+Opening hours
+Contact details
+Social media
+
+Pages:
+
+Privacy Policy
+Terms & Conditions
+
+------------------------------------------------
+
+DELIVERABLE
+
+Modern restaurant landing page
+Mobile responsive
+Menu showcase
+Gallery
+SEO optimized
+Fast loading
