@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd artifacts/restaurant && pnpm install && pnpm build",
+  "buildCommand": "pnpm --filter @workspace/restaurant build",
   "outputDirectory": "artifacts/restaurant/dist/public",
-  "installCommand": "npm install -g pnpm"
+  "installCommand": "pnpm install"
 }
